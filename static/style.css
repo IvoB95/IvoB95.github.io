@@ -1,75 +1,23 @@
-/* color scheme: https://coolors.co/fffcf2-ccc5b9-403d39-252422-eb5e28 
 :root {
-    --fg-color: #252422;
-    --bg-color: #FFFCF2;
-    --bg-color2: #CCC5B9;
-    --accent-color: #eb5e28;
-}
-*/
-
-/* color scheme: https://coolors.co/0d1b2a-1b263b-415a77-778da9-e0e1dd 
-:root {
-    --fg-color: #0D1B2A;
-    --bg-color: #E0E1DD;
-    --bg-color2: #DBCDC6;
-    --accent-color1: #415A77;
-    --accent-color2: #1B263B;
-    --button-hover: var(--accent-color1);
+    --button-hover: var(--accent-colortemp);
     --button-hover-text: var(--bg-color);
-    --active-button: var(--accent-color2);
+    --active-button: var(--accent-color3);
     --active-button-text: var(--bg-color);
-    --navbar: var(--accent-color1);
+    --navbar: var(--accent-color3);
     --navbar-button1: var(--bg-color2);
-    --navbar-button2: var(--fg-color);
-}
-*/
-
-/* color scheme: https://coolors.co/0d1b2a-1b263b-415a77-778da9-e0e1dd 
-:root {
-    --fg-color: #b0cbf7;
-    --bg-color: #26282B;
-    --bg-color2: #353941;
-    --accent-color1: #8da8e6;
-    --accent-color2: #5F85DB;
-    --button-hover: var(--accent-color1);
-    --button-hover-text: var(--bg-color);
-    --active-button: var(--accent-color2);
-    --active-button-text: var(--bg-color);
-    --navbar: var(--accent-color2);
-    --navbar-button1: var(--bg-color2);
-    --navbar-button2: var(--accent-color2);
-    --prog-bar-fill: var(--accent-color2);
-    --prog-bar-empty: var(--bg-color);
-}*/
-
-:root {
-    --button-hover: var(--accent-color1);
-    --button-hover-text: var(--bg-color);
-    --active-button: var(--accent-color2);
-    --active-button-text: var(--bg-color);
-    --navbar: var(--accent-color2);
-    --navbar-button1: var(--bg-color2);
-    --navbar-button2: var(--accent-color2);
-    --prog-bar-fill: var(--accent-color2);
-    --prog-bar-empty: var(--bg-color);
+    --navbar-button2: var(--accent-color3);
+    --prog-bar-fill: var(--accent-color3);
+    --prog-bar-empty: var(--accent-color1);
 }
 
-
-/*
-:root {
-    --fg-color: black;
-    --bg-color: white;
-    --bg-color2: white;
-    --accent-color1: #4d4d4d;
-    --accent-color2: black;
-}*/
 
 :root {
     --fg-color: #2A324B;
     --bg-color: #F5F5F5;
     --bg-color2: #F5F5F5;
-    --accent-color1: #424f76;
-    --accent-color2: #2A324B;
+    --accent-color1: #b3bbd5;
+    --accent-colortemp: #424f76;
+    --accent-color3: #2A324B;
 }
 
 html {
@@ -118,7 +66,7 @@ nav li a.active {
 
 
 .prog-bar-empty {
-    fill: var(--bg-color);
+    fill: var(--prog-bar-empty);
 }
 
 .content-outer {
