@@ -1,5 +1,5 @@
 :root {
-    --button-hover: var(--accent-colortemp);
+    --button-hover: var(--accent-color2);
     --button-hover-text: var(--bg-color);
     --active-button: var(--accent-color3);
     --active-button-text: var(--bg-color);
@@ -10,14 +10,24 @@
     --prog-bar-empty: var(--accent-color1);
 }
 
-
 :root {
     --fg-color: #2A324B;
     --bg-color: #F5F5F5;
     --bg-color2: #F5F5F5;
     --accent-color1: #b3bbd5;
-    --accent-colortemp: #424f76;
+    --accent-color2: #424f76;
     --accent-color3: #2A324B;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --fg-color: #F5F5F5;
+        --bg-color: #11141c;
+        --bg-color2: #11141c;
+        --accent-color1: #262e46;
+        --accent-color2: #53679c;
+        --accent-color3: #b3bbd5;
+    }
 }
 
 html {
